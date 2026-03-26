@@ -8,13 +8,13 @@ header {
 }
 
 header > img {
-    width: 15rem;
+    width: 10rem;
 
     margin-top: 7rem;
 }
 
 header > .title {
-    font-size: 5rem;
+    font-size: 3.3rem;
 
     margin-top: 5rem;
 
@@ -22,20 +22,20 @@ header > .title {
 }
 
 header > .description {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 
     margin-top: 1.5rem;
 
     color: var(--Light-gray);
 
-    width: 60%;
+    width: 35%;
 
     text-align: center;
 }
 
 header > .buttons {
     display: flex;
-    gap: 4rem;
+    gap: 1.5rem;
 
     margin-top: 4rem;
 }
@@ -43,7 +43,7 @@ header > .buttons {
 header > .buttons > .btn {
     padding: 1.2rem 2.5rem;
 
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
 
     color: var(--White);
