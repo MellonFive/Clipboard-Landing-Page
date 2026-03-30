@@ -34,7 +34,7 @@
   background-color: red;
 }
 
-.apresentation > .informations > .item {
+.apresentation > .informations > .itens {
   display: flex;
   flex-direction: column;
   justify-content: center;
