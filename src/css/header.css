@@ -58,7 +58,7 @@ header > .buttons > .btn.btn-ios {
 
     box-shadow: rgba(0, 100, 0, 0.50) 0px 5px 15px;
 
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 
 header > .buttons > .btn.btn-ios:hover {
@@ -76,7 +76,7 @@ header > .buttons > .btn.btn-mac {
 
     box-shadow: rgba(0, 0, 100, 0.50) 0px 5px 15px;
 
-    transition: all .2s ease;
+    transition: all 1s ease;
 }
 
 header > .buttons > .btn.btn-mac:hover {
