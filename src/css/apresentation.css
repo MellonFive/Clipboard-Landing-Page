@@ -35,8 +35,12 @@
 }
 
 .apresentation > .informations > .itens {
+  /* display: flex; */
+  background-color: blue;
+}
+
+.apresentation > .informations > .itens > .item {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  background-color: yellow;
 }
