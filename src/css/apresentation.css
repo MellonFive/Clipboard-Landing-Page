@@ -25,9 +25,8 @@
 }
 
 .apresentation > .informations {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   
   margin-top: 5rem;
 
@@ -35,17 +34,10 @@
 }
 
 .apresentation > .informations > .itens {
-  display: flex;
-  flex-direction: column;
-
-  background-color: blue;
+  
 }
 
 .apresentation > .informations > .itens > .item {
-  background-color: yellow;
+  /* background-color: yellow; */
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
