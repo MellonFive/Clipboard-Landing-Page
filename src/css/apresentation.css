@@ -25,19 +25,19 @@
 }
 
 .apresentation > .informations {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   
   margin-top: 5rem;
+}
 
-  background-color: red;
+.apresentation > .informations > .div-image {
+  background-color: blue; 
 }
 
 .apresentation > .informations > .itens {
-  
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
-.apresentation > .informations > .itens > .item {
-  /* background-color: yellow; */
-
+  background-color: yellow;
 }
