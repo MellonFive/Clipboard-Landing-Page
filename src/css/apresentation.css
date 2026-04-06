@@ -26,18 +26,38 @@
 
 .apresentation > .informations {
   display: flex;
-  
+
   margin-top: 5rem;
 }
 
-.apresentation > .informations > .div-image {
-  background-color: blue; 
+.apresentation > .informations > img {
+  width: 50%;
 }
 
 .apresentation > .informations > .itens {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
 
-  background-color: yellow;
+.apresentation > .informations > .itens > .item {
+  margin-left: 10rem;
+}
+
+.apresentation > .informations > .itens > .item > .subtitle {
+  font-size: 2rem;
+
+  color: var(--Dark-gray);
+}
+
+.apresentation > .informations > .itens > .item > .description {
+  font-size: 1.3rem;
+
+  width: 55%;
+
+  line-height: 2.5rem;
+
+  margin-top: 1rem;
+
+  color: var(--Light-gray);
 }
