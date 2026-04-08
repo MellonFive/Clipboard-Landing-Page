@@ -37,11 +37,12 @@
 .apresentation > .informations > .itens {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .apresentation > .informations > .itens > .item {
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
 
 .apresentation > .informations > .itens > .item > .subtitle {
