@@ -28,10 +28,16 @@
   display: flex;
 
   margin-top: 5rem;
+
+  position: relative;
 }
 
 .apresentation > .informations > img {
   width: 50%;
+
+  /* PESQUISAR SE É CONSIDERADO BOAS PRÁTICAS */
+  position: absolute;
+  left: -2%;
 }
 
 .apresentation > .informations > .itens {
@@ -39,6 +45,11 @@
   flex-direction: column;
   justify-content: center;
   gap: 5rem;
+
+  /* PESQUISAR SE É CONSIDERADO BOAS PRÁTICAS */
+  position: absolute;
+  left: 65%;
+  transform: translate(-50%, 25%);
 }
 
 .apresentation > .informations > .itens > .item {
