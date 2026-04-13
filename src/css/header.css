@@ -8,13 +8,13 @@ header {
 }
 
 header > img {
-    width: 10rem;
+    width: 12rem;
 
     margin-top: 7rem;
 }
 
 header > .title {
-    font-size: 3.3rem;
+    font-size: 4rem;
 
     margin-top: 5rem;
 
@@ -22,13 +22,13 @@ header > .title {
 }
 
 header > .description {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 
     margin-top: 1.5rem;
 
     color: var(--Light-gray);
 
-    width: 35%;
+    width: 30%;
 
     text-align: center;
 }
@@ -43,7 +43,7 @@ header > .buttons {
 header > .buttons > .btn {
     padding: 1.2rem 2.5rem;
 
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
 
     color: var(--White);
