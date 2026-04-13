@@ -1,5 +1,5 @@
 .apresentation {
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .apresentation > .title {
@@ -17,9 +17,9 @@
 
   margin: 2rem auto;
 
-  font-size: 1.5rem;
+  font-size: 2rem;
 
-  line-height: 2.5rem;
+  line-height: 3.5rem;
 
   color: var(--Light-gray);
 }
@@ -54,20 +54,24 @@
 
 .apresentation > .informations > .itens > .item {
   margin-left: 7rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .apresentation > .informations > .itens > .item > .subtitle {
-  font-size: 2rem;
+  font-size: 3rem;
 
   color: var(--Dark-gray);
 }
 
 .apresentation > .informations > .itens > .item > .description {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 
-  width: 55%;
+  width: 60%;
 
-  line-height: 2.5rem;
+  line-height: 2.7rem;
 
   margin-top: 1rem;
 
