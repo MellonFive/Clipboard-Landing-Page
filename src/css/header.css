@@ -37,7 +37,7 @@ header > .buttons {
     display: flex;
     gap: 2rem;
 
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 header > .buttons > .btn {
