@@ -22,28 +22,28 @@ header > .title {
 }
 
 header > .description {
-    font-size: 1.6rem;
+    font-size: 2rem;
 
     margin-top: 1.5rem;
 
     color: var(--Light-gray);
 
-    width: 30%;
+    width: 35%;
 
     text-align: center;
 }
 
 header > .buttons {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
 
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 header > .buttons > .btn {
     padding: 1.2rem 2.5rem;
 
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: bold;
 
     color: var(--White);
