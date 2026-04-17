@@ -1,3 +1,33 @@
 .emphasis {
-    margin-top: 20rem;
+  margin-top: 15rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emphasis > .title {
+  font-size: 3.8rem;
+
+  color: var(--Dark-gray);
+}
+
+.emphasis > .description {
+  width: 40%;
+
+  text-align: center;
+
+  margin-top: 2rem;
+
+  font-size: 2rem;
+
+  line-height: 3.5rem;
+
+  color: var(--Light-gray);
+}
+
+.emphasis > img {
+    width: 60%;
+    
+    margin-top: 10rem;
 }
