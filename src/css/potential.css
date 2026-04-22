@@ -1,0 +1,58 @@
+.potential > .title {
+    color: var(--Dark-gray);
+    
+    font-size: 3.8rem;
+    
+    text-align: center;
+}
+
+.potential > .description {
+    width: 40%;
+    
+    text-align: center;
+    
+    margin: 2rem auto;
+    
+    font-size: 2rem;
+    
+    line-height: 3.5rem;
+    
+    color: var(--Light-gray);
+}
+
+.potential > .informations {
+    display: flex;
+    align-items: stretch;
+
+    text-align: center;
+    
+    width: 80%;
+    
+    margin: 10rem auto;
+}
+
+.potential > .informations > .item {
+    flex: 1;
+}
+
+.potential > .informations > .item > img {
+    width: 4rem;
+}
+
+/* .potential > .informations > .item > .subtitle {
+    color: var(--Dark-gray);
+
+    margin-top: 2rem;
+    
+    font-size: 2.8rem;
+} */
+
+/* .potential > .informations > .item > .description {
+    color: var(--Light-gray);
+    
+    font-size: 1.9rem;
+    
+    line-height: 3rem;
+
+    background-color: red;
+} */
