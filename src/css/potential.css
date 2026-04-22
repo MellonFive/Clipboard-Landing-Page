@@ -47,6 +47,9 @@
     font-size: 2.8rem;
 }
 
+/* Acredito que a descrição não está deixando eu alinhar os itens, pois cada descrição tem um tamanho diferente. 
+Para resolver isso, podemos definir uma altura fixa para as descrições e usar o `display: flex` para alinhar os itens verticalmente. */
+
 .potential > .informations > .item > .description {
     color: var(--Light-gray);
     
