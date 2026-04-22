@@ -22,11 +22,11 @@
 
 .potential > .informations {
     display: flex;
-    align-items: stretch;
+    align-items: center;
 
     text-align: center;
     
-    width: 80%;
+    width: 90%;
     
     margin: 10rem auto;
 }
@@ -52,10 +52,18 @@
     
     font-size: 1.9rem;
 
-    line-height: 3rem;
+    line-height: 4rem;
 
     text-align: center;
 
     margin: 3rem auto;
+}
 
+.potential > .informations > .item > .description.-first {
+    width: 75%;
+}
+
+.potential > .informations > .item > .description.-second, 
+.potential > .informations > .item > .description.-third {
+    width: 80%;
 }
