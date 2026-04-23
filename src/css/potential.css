@@ -21,22 +21,24 @@
 }
 
 .potential > .informations {
-    display: flex;
-    align-items: center;
-
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     
-    width: 90%;
+    width: 100%;
     
     margin: 10rem auto;
+
+    background-color: red;
 }
 
 .potential > .informations > .item {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .potential > .informations > .item > img {
-    width: 5rem;
+    width: 6rem;
 }
 
 .potential > .informations > .item > .subtitle {
@@ -53,7 +55,7 @@ Para resolver isso, podemos definir uma altura fixa para as descrições e usar 
 .potential > .informations > .item > .description {
     color: var(--Light-gray);
     
-    font-size: 1.9rem;
+    font-size: 2rem;
 
     line-height: 4rem;
 
@@ -63,10 +65,10 @@ Para resolver isso, podemos definir uma altura fixa para as descrições e usar 
 }
 
 .potential > .informations > .item > .description.-first {
-    width: 75%;
+    width: 65%;
 }
 
 .potential > .informations > .item > .description.-second, 
 .potential > .informations > .item > .description.-third {
-    width: 80%;
+    width: 75%;
 }
