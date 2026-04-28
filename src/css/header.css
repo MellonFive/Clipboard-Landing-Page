@@ -1,4 +1,10 @@
-header {
+/*
+Na aplicação, a tag header não precisa existir, porque o header é um cabeçalho, 
+que a gente utilizar para navegar, nesse app, não tem, 
+então já deveria vir tudo pra dentro da main e ir direto para o hero 
+*/
+
+.hero {
     background: url(/src/images/bg-header-desktop.png) no-repeat center center / cover;
 
     display: flex;
@@ -7,13 +13,13 @@ header {
     justify-content: center;
 }
 
-header > img {
+.hero > img {
     width: 15rem;
 
     margin-top: 7rem;
 }
 
-header > .title {
+.hero > .title {
     font-size: 5rem;
 
     margin-top: 7rem;
@@ -21,7 +27,7 @@ header > .title {
     color: var(--Dark-gray);
 }
 
-header > .description {
+.hero > .description {
     font-size: 2.2rem;
 
     margin-top: 1.5rem;
@@ -33,14 +39,14 @@ header > .description {
     text-align: center;
 }
 
-header > .buttons {
+.hero > .buttons {
     display: flex;
     gap: 3rem;
 
     margin-top: 5rem;
 }
 
-header > .buttons > .btn {
+.hero > .buttons > .btn {
     padding: 1.2rem 2.5rem;
 
     font-size: 1.8rem;
@@ -51,7 +57,7 @@ header > .buttons > .btn {
     border-radius: 3rem;
 }
 
-header > .buttons > .btn.btn-ios {
+.hero > .buttons > .btn.btn-ios {
     background-color: var(--Green);
     
     border: 1px solid var(--Green);
@@ -61,7 +67,7 @@ header > .buttons > .btn.btn-ios {
     transition: all .5s ease;
 }
 
-header > .buttons > .btn.btn-ios:hover {
+.hero > .buttons > .btn.btn-ios:hover {
     background-color: rgb(0, 200, 0);
 
     color: var(--White);
@@ -69,7 +75,7 @@ header > .buttons > .btn.btn-ios:hover {
     cursor: pointer;
 }
 
-header > .buttons > .btn.btn-mac {
+.hero > .buttons > .btn.btn-mac {
     background-color: var(--Blue);
 
     border: 1px solid var(--Blue);
@@ -79,7 +85,7 @@ header > .buttons > .btn.btn-mac {
     transition: all .5s ease;
 }
 
-header > .buttons > .btn.btn-mac:hover {
+.hero > .buttons > .btn.btn-mac:hover {
     background-color: rgb(0, 0, 255);
 
     color: var(--White);

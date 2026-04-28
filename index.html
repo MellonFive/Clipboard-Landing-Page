@@ -18,7 +18,6 @@
 
   <link rel="stylesheet" href="/src/css/reset.css" />
   <link rel="stylesheet" href="/src/css/variables.css" />
-  <link rel="stylesheet" href="/src/css/body.css" />
   <link rel="stylesheet" href="/src/css/main.css" />
   <link rel="stylesheet" href="/src/css/header.css" />
   <link rel="stylesheet" href="/src/css/apresentation.css" />
@@ -28,22 +27,22 @@
 </head>
 
 <body>
-  <header>
-    <img src="src/images/logo.svg" alt="Image of logo website" />
-    <h1 class="title">A history of everything you copy</h1>
+  <main class="container">
+    <section class="hero">
+      <img src="src/images/logo.svg" alt="Image of logo website" />
+      <h1 class="title">A history of everything you copy</h1>
 
-    <p class="description">
-      Clipboard allows you to track and organize everything you copy.
-      Instantly access your clipboard on all your devices.
-    </p>
+      <p class="description">
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </p>
 
-    <div class="buttons">
-      <button class="btn btn-ios">Download for iOS</button>
-      <button class="btn btn-mac">Download for Mac</button>
-    </div>
-  </header>
+      <div class="buttons">
+        <button class="btn btn-ios">Download for iOS</button>
+        <button class="btn btn-mac">Download for Mac</button>
+      </div>
+    </section>
 
-  <main>
     <section class="apresentation">
       <h2 class="title">Keep track of your snippets</h2>
 
@@ -69,15 +68,17 @@
           <div class="item">
             <h2 class="subtitle">iCloud Sync</h2>
 
-            <p class="description">Instantly saves and syncs snippets across all your devices.</p>
+            <p class="description">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
           </div>
 
           <div class="item">
             <h2 class="subtitle">Complete History</h2>
 
             <p class="description">
-              Retrieve any snippets from the first moment you started using the
-              app.
+              Retrieve any snippets from the first moment you started using
+              the app.
             </p>
           </div>
         </div>
@@ -98,32 +99,41 @@
     <section class="potential">
       <h2 class="title">Supercharge your workflow</h2>
 
-      <p class="description">We’ve got the tools to boost your productivity.</p>
+      <p class="description">
+        We’ve got the tools to boost your productivity.
+      </p>
 
       <div class="informations">
         <div class="item">
-          <img src="src/images/icon-blacklist.svg" alt="Blacklist Icon">
-          <h3 class="subtitle">Create blacklists</h3>
-          <p class="description -first">
-            Ensure sensitive information never makes its way to your clipboard
-            by excluding certain sources.
-          </p>
+          <img src="src/images/icon-blacklist.svg" alt="Blacklist Icon" />
+          <div class="group">
+            <h3 class="subtitle">Create blacklists</h3>
+            <p class="description">
+              Ensure sensitive information never makes its way to your
+              clipboard by excluding certain sources.
+            </p>
+          </div>
         </div>
 
         <div class="item">
-          <img src="src/images/icon-text.svg" alt="Plain Text Icon">
-          <h3 class="subtitle">Plain text snippets</h3>
-          <p class="description -second">
-            Remove unwanted formatting from copied text for a consistent look.
-          </p>
+          <img src="src/images/icon-text.svg" alt="Plain Text Icon" />
+          <div class="group">
+            <h3 class="subtitle">Plain text snippets</h3>
+            <p class="description">
+              Remove unwanted formatting from copied text for a consistent
+              look.
+            </p>
+          </div>
         </div>
 
         <div class="item">
-          <img src="src/images/icon-preview.svg" alt="Sneak Preview Icon">
-          <h3 class="subtitle">Sneak preview</h3>
-          <p class="description -third">
-            Quick preview of all snippets on your Clipboard for easy access.
-          </p>
+          <img src="src/images/icon-preview.svg" alt="Sneak Preview Icon" />
+          <div class="group">
+            <h3 class="subtitle last-sub">Sneak preview</h3>
+            <p class="description last">
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -143,26 +153,10 @@
         with iCloud and you’re ready to start adding to your clipboard.
       </p>
 
-      <a href="#" class="btn btn-ios"></a>Download for iOS</a>
+      <a href="#" class="btn btn-ios">Download for iOS</a>
       <a href="#" class="btn btn-mac">Download for Mac</a>
     </section>
   </main>
-  <!--
-    <footer>
-       <img class="logo-footer" src="src/images/logo.svg" alt="Image of logo website" />
-
-      <ul class="list">
-        <li class="item-list">FAQs</li>
-        <li class="item-list">Contact Us</li>
-        <li class="item-list">Privacy Policy</li>
-        <li class="item-list">Press Kit</li>
-        <li class="item-list">Install Guide</li>
-      </ul>
-
-      <img class="social-media" src="src/images/icon-facebook.svg" alt="Facebook Icon">
-      <img class="social-media" src="src/images/icon-twitter.svg" alt="Twitter Icon">
-      <img class="social-media" src="src/images/icon-instagram.svg" alt="Instagram Icon">
-    </footer> -->
 </body>
 
 </html>

@@ -7,7 +7,7 @@
 }
 
 .potential > .description {
-    width: 40%;
+    /* width: 40%; */
     
     text-align: center;
     
@@ -15,34 +15,40 @@
     
     font-size: 2rem;
     
-    line-height: 3.5rem;
+    /* line-height: 3.5rem; */
     
     color: var(--Light-gray);
 }
 
 .potential > .informations {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-   
-    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    width: 70%;
     
     margin: 10rem auto;
-   
-    background-color: red;
 }
 
 .potential > .informations > .item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 33%;
 }
 
 .potential > .informations > .item > img {
-    width: 6rem;
+    width: 5rem;
 }
 
-.potential > .informations > .item > .subtitle {
+.potential > .informations > .item > .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.potential > .informations > .item > .group > .subtitle {
     color: var(--Dark-gray);
 
     margin-top: 4rem;
@@ -50,26 +56,23 @@
     font-size: 2.8rem;
 }
 
+.last-sub {
+    padding-top: 1rem;
+}
+
 /* Acredito que a descrição não está deixando eu alinhar os itens, pois cada descrição tem um tamanho diferente. 
 Para resolver isso, podemos definir uma altura fixa para as descrições e usar o `display: flex` para alinhar os itens verticalmente. */
 
-.potential > .informations > .item > .description {
+.potential > .informations > .item > .group > .description {
     color: var(--Light-gray);
     
-    font-size: 2rem;
+    font-size: 1.5rem;
 
-    line-height: 4rem;
+    line-height: 3rem;
 
     text-align: center;
-
-    margin: 3rem auto;
 }
 
-.potential > .informations > .item > .description.-first {
-    width: 65%;
-}
-
-.potential > .informations > .item > .description.-second, 
-.potential > .informations > .item > .description.-third {
-    width: 75%;
+.potential > .informations > .item > .group > .description.last {
+    padding-top: .3rem;
 }

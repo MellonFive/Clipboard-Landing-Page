@@ -1,4 +1,11 @@
-main {
-    display: grid;
-    grid-template-rows: repeat(5, auto);
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+
+  /* E se eu colocar max-width 100% */
+  max-width: 1440px;
 }
