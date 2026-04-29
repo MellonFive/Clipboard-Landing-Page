@@ -7,5 +7,5 @@ body {
   width: 100%;
 
   /* E se eu colocar max-width 100% */
-  max-width: 1440px;
+  max-width: 100%;
 }
