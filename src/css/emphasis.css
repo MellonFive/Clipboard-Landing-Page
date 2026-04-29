@@ -7,7 +7,7 @@
 }
 
 .emphasis > .title {
-  font-size: 3.8rem;
+  font-size: 3.3rem;
 
   color: var(--Dark-gray);
 }
@@ -19,7 +19,7 @@
 
   margin-top: 2rem;
 
-  font-size: 2rem;
+  font-size: 1.7rem;
 
   line-height: 3.5rem;
 
@@ -29,5 +29,5 @@
 .emphasis > img {
   width: 60%;
   
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
