@@ -8,13 +8,13 @@
 }
 
 .hero > img {
-    width: 15rem;
+    width: 13rem;
 
     margin-top: 7rem;
 }
 
 .hero > .title {
-    font-size: 5rem;
+    font-size: 4rem;
 
     margin-top: 7rem;
 
@@ -28,14 +28,14 @@
 
     color: var(--Light-gray);
 
-    width: 40%;
+    width: 50%;
 
     text-align: center;
 }
 
 .hero > .buttons {
     display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
 
     margin-top: 5rem;
 }
@@ -43,7 +43,7 @@
 .hero > .buttons > .btn {
     padding: 1.2rem 2.5rem;
 
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
 
     color: var(--White);
