@@ -86,3 +86,28 @@
 
     cursor: pointer;
 }
+
+@media (max-width: 375px) {
+    .hero {
+        padding: 0 3rem;
+    }
+
+    .hero > img {
+        width: 12rem;
+
+        margin-top: 7rem;
+    }
+
+    .hero > .title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .hero > .description {
+        font-size: 1.4rem;
+
+        line-height: 3rem;
+
+        width: 100%;
+    }
+}
