@@ -74,9 +74,11 @@
   }
 
   .apresentation > .description {
-    width: 85%;
+    width: 90%;
 
-    font-size: 1.4rem;
+    line-height: 3rem;
+
+    font-size: 1.5rem;
   }
 
   .apresentation > .informations {
@@ -101,7 +103,7 @@
   .apresentation > .informations > .itens > .item > .description {
     width: 100%;
 
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
     margin-top: 0;
     
