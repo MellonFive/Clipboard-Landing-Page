@@ -89,6 +89,22 @@
   }
 
   .apresentation > .informations > .itens {
-    gap: 3rem;
+    text-align: center;
+  }
+  
+  .apresentation > .informations > .itens > .item {
+    width: 100%;
+    
+    margin-left: 0;    
+  }
+
+  .apresentation > .informations > .itens > .item > .description {
+    width: 100%;
+
+    font-size: 1.4rem;
+
+    margin-top: 0;
+    
+    line-height: 3rem;
   }
 }
