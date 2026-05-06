@@ -63,3 +63,32 @@
 
   color: var(--Light-gray);
 }
+
+@media (max-width: 375px) {
+  .apresentation {
+    margin-top: 20rem;
+  }
+
+  .apresentation > .title {
+    font-size: 3rem;
+  }
+
+  .apresentation > .description {
+    width: 85%;
+
+    font-size: 1.4rem;
+  }
+
+  .apresentation > .informations {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .apresentation > .informations > img {
+    width: 100%;
+  }
+
+  .apresentation > .informations > .itens {
+    gap: 3rem;
+  }
+}
