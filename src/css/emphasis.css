@@ -42,13 +42,13 @@
   }
 
   .emphasis > .title {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   .emphasis > .description {
-    width: 90%;
+    width: 95%;
     
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     
     line-height: 2.5rem;
   }
