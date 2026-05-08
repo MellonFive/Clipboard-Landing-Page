@@ -77,3 +77,34 @@
 
     cursor: pointer;
 }
+
+@media (max-width: 375px) {
+    .download {
+        margin-top: 20rem;
+    }
+
+    .download > .subtitle {
+        font-size: 2.8rem;
+    }
+
+    .download > .description {
+        width: 95%;
+
+        font-size: 1.4rem;
+        
+        line-height: 2.5rem;
+    }
+
+    .download > .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+
+    .download > .buttons > .btn {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+}
