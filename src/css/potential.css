@@ -73,10 +73,7 @@ Para resolver isso, podemos definir uma altura fixa para as descrições e usar 
     text-align: center;
 }
 
-.potential > .informations > .item > .group > .description.-first {
-    width: 70%;
-}
-
+.potential > .informations > .item > .group > .description.-first, 
 .potential > .informations > .item > .group > .description.-second {
     width: 70%;
 }
@@ -85,4 +82,39 @@ Para resolver isso, podemos definir uma altura fixa para as descrições e usar 
     width: 75%;
     
     padding-top: .3rem;
+}
+
+@media (max-width: 375px) {
+    .potential {
+        margin-top: 20rem;
+    }
+    
+    .potential > .title {  
+        font-size: 3.3rem;
+    }
+
+    .potential > .description {
+        width: 90%;
+        
+        font-size: 1.8rem;
+    }
+
+.potential > .informations {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+.potential > .informations > .item {
+        width: 100%;
+    }
+
+.potential > .informations > .item > img {
+        width: 6rem;
+    }
+
+.potential > .informations > .item > .group > .description.-first,
+.potential > .informations > .item > .group > .description.-second,
+.potential > .informations > .item > .group > .description.-third {
+        width: 95%;
+    }
 }
