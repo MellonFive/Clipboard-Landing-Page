@@ -27,7 +27,6 @@
 .potential > .informations {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
     
     /* width: 70%; */
     
