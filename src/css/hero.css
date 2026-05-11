@@ -88,7 +88,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .hero {
         background-image: url(/src/images/bg-header-mobile.png);
     }

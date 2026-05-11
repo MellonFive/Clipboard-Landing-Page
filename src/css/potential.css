@@ -85,7 +85,7 @@ Para resolver isso, podemos definir uma altura fixa para as descrições e usar 
     padding-top: .3rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .potential {
         margin-top: 20rem;
     }
