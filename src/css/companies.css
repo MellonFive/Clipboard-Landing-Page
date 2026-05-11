@@ -1,6 +1,6 @@
 .companies {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .companies > img {
