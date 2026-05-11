@@ -1,3 +1,7 @@
+.potential {
+    margin-top: 15rem;
+}
+
 .potential > .title {
     color: var(--Dark-gray);
     
