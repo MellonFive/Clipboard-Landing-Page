@@ -12,7 +12,5 @@ body {
 @media (max-width: 480px) {
   section {
     padding: 0 3rem;
-
-    background-color: red;
   }
 }
