@@ -7,7 +7,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 
-    padding: 4rem 4rem;
+    padding: 4rem;
 }
 
 footer > img {
@@ -36,7 +36,7 @@ footer > nav > .nav-list > li > a:hover {
 
 footer > .social-media {
     display: flex;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 footer > .social-media > a > img {
@@ -48,7 +48,7 @@ footer > .social-media > a > img {
 
 footer > .social-media > a:hover > img {
   filter: invert(39%) sepia(74%) saturate(300%) hue-rotate(131deg) brightness(100%) contrast(89%);
-  transform: scale(1.5);
+  transform: scale(1.7);
 }
 
 @media (max-width: 375px) {
