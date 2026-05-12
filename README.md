@@ -7,7 +7,7 @@ A aplicação representa uma empresa onde você pode armazenar trechos de códig
 
 ## 📸 Preview
 
-<img src="/src/images/desktop-preview.mp4" alt="Preview da Landing Page" width="100%">
+<img src="/src/images/desktop-preview.gif" alt="Preview da Landing Page" width="100%">
 
 <img src="/src/images/preview.gif" alt="Preview da Landing Page" width="100%">
 
