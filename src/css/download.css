@@ -27,7 +27,6 @@
 .download > .buttons {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
 
     margin-top: 5rem;
 }
