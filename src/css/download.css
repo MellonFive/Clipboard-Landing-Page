@@ -59,6 +59,8 @@
     color: var(--White);
 
     cursor: pointer;
+    
+    transform: scale(1.1);
 }
 
 .download > .buttons > .btn.btn-mac {
@@ -77,6 +79,8 @@
     color: var(--White);
 
     cursor: pointer;
+
+    transform: scale(1.1);
 }
 
 @media (max-width: 480px) {
